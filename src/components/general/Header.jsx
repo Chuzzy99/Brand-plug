@@ -41,7 +41,7 @@ function Header() {
       scaleY: 0,
       transition: {
         duration: 0.3,
-        ease: [0.22, 1, 0.36, 1],
+        ease: "easeInOut",
         when: "afterChildren",
         staggerChildren: 0.05,
         delayChildren: 0.01,
@@ -75,7 +75,7 @@ function Header() {
       opacity: 0,
     },
     animate: {
-      opacity: 1,
+      opacity: 0.85,
       transition: {
         ease: "easeInOut",
         duration: 0.5,
@@ -92,8 +92,8 @@ function Header() {
   };
 
   return (
-    <div className="z-50">
-      <div className="w-full sticky top-0  bg-white flex justify-between items-center px-[5vw] laptop:px-[8vw] py-4 shadow-navbar">
+    <div className="z-50 sticky top-0">
+      <div className="w-full   bg-white flex justify-between items-center px-[5vw] laptop:px-[8vw] py-4 shadow-navbar">
         <div className="flex  justify-start tablet:justify-between laptop:justify-start items-center gap-[100px] tablet:w-full laptop:w-fit">
           <Link to="/">
             <img
@@ -103,7 +103,7 @@ function Header() {
               alt="brand guide logo"
             />
           </Link>
-          <div className="  hidden tablet:flex justify-center items-center gap-10 *:font-medium *:text-[15px] *:leading-[18.2px] *:transition-all *:ease-linear *:duration-200 *:transform  *:capitalize">
+          <div className="  hidden tablet:flex justify-center items-center gap-10 *:font-medium *:text-[0.9rem] *:leading-[18.2px] *:transition-all *:ease-linear *:duration-200 *:transform  *:capitalize">
             <NavLink
               to="/about"
               className={({ isActive }) =>
@@ -193,7 +193,7 @@ function Header() {
               initial="initial"
               animate="animate"
               exit="exit"
-              className="absolute flex tablet:hidden top-[98%] z-50  py-4 right-0 h-fit origin-top w-full bg-white  *:px-[5vw]  justify-start flex-col items-start gap-4 *:font-medium *:text-[15px] *:leading-[18.2px] *:transition-all *:ease-linear *:duration-200 *:transform  *:capitalize"
+              className="absolute flex tablet:hidden top-[98%] z-50  py-4 right-0 h-fit origin-top w-full bg-white  *:px-[5vw]  justify-start flex-col items-start gap-4 *:font-medium *:text-[0.938rem] *:leading-[18.2px] *:transition-all *:ease-linear *:duration-200 *:transform  *:capitalize"
             >
               <motion.div variants={linkVars}>
                 <NavLink
@@ -258,7 +258,7 @@ function Header() {
 
               <hr
                 // variants={hrVars}
-                className="h-[1px] w-full  bg-secondary-main"
+                className="h-[1px] w-full border-none bg-secondary-main"
               />
               <motion.div
                 variants={linkVars}
@@ -302,7 +302,7 @@ function Header() {
             animate="animate"
             exit="exit"
             key="bg"
-            className="absolute block tablet:hidden  top-0  h-[150vh] w-full right-0 opacity-85 z-[-1] bg-[#161616]"
+            className="absolute block tablet:hidden  top-0  h-[150vh] w-full right-0 opacity-80 z-[-1] bg-[#161616]"
           ></motion.div>
         )}
       </AnimatePresence>
