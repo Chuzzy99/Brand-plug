@@ -23,6 +23,9 @@ export default {
       },
       fontFamily: {
         sans: ["Montserrat", "sans-serif"]
+      },
+      boxShadow: {
+        navbar: "0 2px 28.1px 0 rgba(220, 55, 4, 0.08)",
       }
     },
   },
