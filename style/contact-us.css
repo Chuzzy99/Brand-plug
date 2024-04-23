@@ -1,0 +1,427 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.agen-1{
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;    
+}
+
+.navbar-middle ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-middle ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-middle ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-middle ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-middle ul li a:hover {
+    color: orangered;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+.navbar-right {
+    margin-right: 10px; /* Adjust spacing from the right end */
+}
+
+.navbar-right img {
+    height: 25px; /* Adjust height as needed */
+    margin-left: 15px; /* Add spacing between social media icons */
+    margin-right: 15px; /* Add spacing between social media icons */
+    border-radius: 50%; /* Make the images round */
+}
+.ute{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.ote{
+    color: #FF3C00;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0.15em;
+text-align: left;
+    
+}
+.ite {
+    display: flex;
+    align-items: flex-end; /* Align items vertically */
+    padding: 0px;
+}
+
+.text-container {
+    flex: 1; /* Grow to take remaining space */
+    padding-right: 20px; /* Add spacing between text and image */
+    margin: 70px;
+}
+
+.image {
+    width: 667px;
+height: 576px;
+top: 180px;
+left: 831px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.ife{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    box-shadow: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+
+}
+.ife-1{
+    background-color: white;
+    color: orangered;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    box-shadow: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+
+}
+
+.ife .img {
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+}
+
+.img{
+    height: 20px;
+    width: 20px;
+    justify-content: end;
+    padding: 10px;
+}
+.kole{
+    background-image: url();
+    bottom: 0px;
+}
+
+.or{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 34px;
+    text-align: left;
+    color: white;    
+}    
+.call-us{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 34px;
+text-align: left;
+color: white;
+}
+.num{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 34px;
+text-align: left;
+color: white;
+display: flex;
+gap: 3px;
+}
+.osm{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 34px;
+text-align: left;
+color: white;
+}
+/* Basic CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to form elements */
+  .frame-172 {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .frame-176,
+  .frame-177,
+  .frame-178 {
+    margin-bottom: 20px;
+    
+  }
+  
+  .name,
+  .email-address,
+  .message {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .frame-175,
+  .frame-1751,
+  .frame-1752 {
+    margin-top: 5px;
+  }
+  
+  
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        height: 220px; /* Adjust height as needed */
+        resize: vertical;
+      
+  }
+  
+  .contact-us-2 {
+    padding: 10px 187px;
+    background-color:  #FF3C00;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-us-2:hover {
+    background-color: orange;
+  }
+  
+  .arrow-right-2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  .frame-175{
+    width: 427px;
+    border: 1px solid #3636361A;
+  }
+  .frame-178{
+    width: 427px;
+    height: 241px;
+     
+  }
+  .form-container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 503px;
+    height: 550px;
+    gap: 5px;
+    border-radius: 5px;
+    margin-right: 150px;
+    background-color: white;
+  }
+  
+  .frame-172 {
+    max-width: none;
+    margin: 0;
+  }
+  
+.imgg-1{
+    width: 20px;
+    height: 10px;
+}
+.component-21{
+    display: inline-flex;
+}
+.kole {
+    position: relative;
+    background-image: url(/images/shot-stylish-ethnic-female-recruiter-makes-job-offer_273609-44397.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.kole::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.95); /* semi-transparent black overlay */
+    z-index: -1;
+}
+
+
+
+
+/* Adjust text and form styles to make them normal */
+.text-container {
+    color: #fff; /* Set text color to white for better visibility */
+}
+
+.frame-172 {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for the form */
+    padding: 20px;
+    border-radius: 10px;
+}
+.jjj{
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+}
+.www{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+}
+.lll{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+color: #FF3C00;
+}
+.ccc{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: left;
+color: white;
+background-color: orangered;
+border-radius: 30px;
+height: 50px;
+width: 190px;
+box-shadow: 0px;
+padding: 10px;
+display: flex;
+align-items: center;
+border: 0px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    background-image: url(/images/Frame\ 39.png);
+    padding: 60px;
+}
+.bp-footer{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+padding-left: 70px;
+}
+.footer-services{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.vvv{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.others{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.pro{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.ghg{
+    background-color: #161616;
+}
+.copyright{
+    font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+

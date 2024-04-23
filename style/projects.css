@@ -20,10 +20,10 @@ body {
 .agen-1{
     color: white;
     font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 34px;
-    text-align: left;
+font-size: 18px;
+font-weight: 600;
+line-height: 31px;
+text-align: left;
 }
 
 .navbar-middle ul {
@@ -67,26 +67,17 @@ body {
 
 .ote{
     color: orangered;
-    background-image: url(/images/Frame\ 39.png);
     font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 35px;
-    letter-spacing: 0.15em;
-    text-align: left;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0.15em;
+text-align: left 
 }
-
 .ite {
     display: flex;
     align-items: flex-end; /* Align items vertically */
     padding: 0px;
-    justify-content: space-between;
-}
-
-.text-container {
-    flex: 1; /* Grow to take remaining space */
-    padding-right: 20px; /* Add spacing between text and image */
-    margin: 70px;
 }
 
 .img{
@@ -95,161 +86,131 @@ body {
     justify-content: end;
     padding: 10px;
 }
-
-.kole {
-    background-image: url(/images/Rectangle%209.png), url(/images/Rectangle%208.png);
-    background-position: right top, left top; /* Aligning the first image to the top right and the second image to the bottom left */
-    background-repeat: no-repeat;
-    background-size: 450px 548px, 1300px 666px; /* Adjust the dimensions as needed */
-    height: 800px; /* Adjust the height as needed */
-    width: 1000px; /* Adjust the width as needed */
-    padding-right: 375px; /* Adjust padding-right as needed */
+.kole{
+    bottom: 0px;
+    background-image: url(/images/Frame\ 139.png);
 }
-
-.ife-1{
-    background-color: white;
-    color: orangered;
-    border-radius: 30px;
-    height: 50px;
-    width: 150px;
-    box-shadow: 0px;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-}
-
-.wepik{
-    padding-left: 729px;
-    float: right; /* Align the image to the right */
-    margin-top: -440px; /* Adjust the negative margin to move the image upwards */
-    margin-right: 20px; /* Add margin from the right to adjust the position */
-    position: relative;
-    bottom: 0px; 
-    width: 536px;
-    height: 527px;
-}
-
-.ife-2{
-    padding-left: 70px;
-    margin-top: -60px;
-}
-
-.branding{
+.agen-1{
     font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 42.67px;
-    text-align: left;    
-}
-
-.eyb{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
     text-align: left;
-    color: #363636;
+    color: black;    
 }
-
-.brnd {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 100px;
+.frame-139{
+    height: 700px;
+    width: 1375px;
 }
-
-.text {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.frame-88{
-    padding-left: 180px;
-}
-
-.frame-90{
-    padding-left: 70px;
-}
-
-.text img {
-    margin-right: 10px; /* Adjust the margin as needed */
-}
-
-.eyo{
+.our-work{
     font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: left;
-    color: #363636;
-    padding-left: 200px;
+font-size: 15px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.15em;
+text-align: left;
+color: orangered;
 }
-
-.brnd-1 {
-    display: inline-block;
-    vertical-align: top;
+.yyy{
+    background-color: black;
+    padding-top: 100px;
+    padding-left: 100px;
 }
-
-.text-1{
-    display: inline-block;
-    vertical-align: top;
-}
-
-.branding-1{
+.case-studies{
     font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 42.67px;
-    text-align: left;  
-    padding-left: 200px;
-}
-.text-1 img{
-    margin-right: 10px;
-}
-.gst{
-    background-image: url(/images/Rectangle\ 11.png);
-}
-.text-2{
-    display: inline-block;
-    vertical-align: top;
-}
-.branding-2{
-    font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 42.67px;
-    text-align: left;  
-    padding-left: 200px;
-    color: white;
-}
-.eyo-1{
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: left;
-    color: white;    
-    padding-left: 200px; 
-}
-.eyo-1 img{
-    margin-right: 10px;
-}
-.branding-3{
-    font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 42.67px;
-    text-align: left;    
-    color: white;
-}
-.eyb-2{
-    font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 32px;
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
 text-align: left;
 color: white;
 }
+.utc{
+    color: white;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+}
+.component {
+    display: flex; /* Use flexbox to arrange items horizontally */
+   gap: 20px;
+    margin: 10px;
+}
+
+.image-container {
+    text-align: center; /* Center the content */
+}
+
+.image-container img {
+    margin-bottom: 10px; /* Add space between image and description */
+    width: 397px;
+height: 296px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;  
+}
+.description{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;   
+    color: wheat; 
+}
+.cr-1{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+text-decoration: none;
+}
+.gallery{
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+text-align: center;
+color: black;
+}
+.eov{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+color: #363636;
+}
+.frame-152{
+    height: 1370px;
+    width: 1375px;
+}
+
+
+.continue-reading {
+    text-decoration: none; /* Remove underline from the anchor tag */
+    color: orangered; /* Change text color if needed */
+}
+
+
+
+.arrow-icon {
+    width: 20px; /* Adjust the width of the arrow icon */
+    vertical-align: middle; /* Align the icon with the text */
+    margin-left: 5px; /* Space between text and icon */
+}
+button[type="load"] {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+}
+
 .jjj{
     font-family: Montserrat;
 font-size: 35px;
@@ -348,4 +309,3 @@ line-height: 28px;
 text-align: left;
 color: white;
 }
-

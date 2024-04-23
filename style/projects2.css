@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.agen-1{
+    color: white;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 31px;
+text-align: left;
+}
+
+.navbar-middle ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-middle ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-middle ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-middle ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-middle ul li a:hover {
+    color: orangered;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+.navbar-right {
+    margin-right: 10px; /* Adjust spacing from the right end */
+}
+
+.navbar-right img {
+    height: 25px; /* Adjust height as needed */
+    margin-left: 15px; /* Add spacing between social media icons */
+    margin-right: 15px; /* Add spacing between social media icons */
+    border-radius: 50%; /* Make the images round */
+}
+
+.ote{
+    color: orangered;
+    background-image: url(/images/Frame\ 39.png);
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0.15em;
+text-align: left 
+}
+.ite {
+    display: flex;
+    align-items: flex-end; /* Align items vertically */
+    padding-right: 210px;
+}
+
+.text-container {
+    padding-left: 83px; /* Add spacing between text and image */
+    margin: 23px;
+   
+}
+
+
+.img{
+    height: 20px;
+    width: 20px;
+    justify-content: end;
+    padding: 10px;
+}
+.kole{
+   background-image: url(/images/Frame\ 183.png);
+   width: 1389px;
+   height: 400px;
+    bottom: 0px;
+    background-size: cover; /* Ensure the background image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+.mtd{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-align: left;
+color: black;
+}
+.itd{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #363636;
+}
+.frame-116{
+    margin-top: -300px;
+}
+
+
+.blog{
+    font-family: Montserrat;
+    font-size: 14.5px;
+    font-weight: 400;
+    line-height: 32px;
+  color: white;
+    padding-left: 34px;
+   text-decoration: none;
+}
+.lorem-ipsum{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 32px;
+text-align: left;
+padding-left: 260px;
+}
+.lorem-ipsum-1{
+    text-align: left;
+padding-left: 260px;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+color: #363636;
+}
+.Frame-184{
+    width: 850px;
+height: 393px;
+top: 1180px;
+left: 204px;
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+color:  #282828;
+}
+.image-container {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Aligns children vertically in the center */
+    justify-content: center; /* Center align the items horizontally */
+}
+
+.middle-images {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks children vertically */
+    margin: 0 20px; /* Adds horizontal space between the stacked images and the side images */
+    gap: 10px;
+}
+
+.side-image {
+    height: 300px;
+}
+
+.top-middle-image, .bottom-middle-image {
+   width: 400px;
+   height: 150px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    background-image: url(/images/Frame\ 39.png);
+    padding: 60px;
+}
+.bp-footer{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+padding-left: 70px;
+}
+.footer-services{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.vvv{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.others{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.pro{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.ghg{
+    background-color: #161616;
+}
+.copyright{
+    font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
