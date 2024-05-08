@@ -1,0 +1,1489 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.agen-1{
+    color: white;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 31px;
+text-align: left;
+}
+
+.navbar-middle ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-middle ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-middle ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-middle ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-middle ul li a:hover {
+    color: orangered;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+.navbar-right {
+    margin-right: 10px; /* Adjust spacing from the right end */
+}
+
+.navbar-right img {
+    height: 25px; /* Adjust height as needed */
+    margin-left: 15px; /* Add spacing between social media icons */
+    margin-right: 15px; /* Add spacing between social media icons */
+    border-radius: 50%; /* Make the images round */
+}
+.ute{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    box-sizing: border-box;
+}
+.ote{
+    color: white;
+    font-size: 40px;
+    padding-top: 0px;
+    background-image: url(/images/Frame\ 39.png);
+    
+    
+}
+.ite {
+    display: flex;
+    align-items: flex-end; /* Align items vertically */
+    padding: 0px;
+}
+
+.text-container {
+    flex: 1; /* Grow to take remaining space */
+    padding-right: 20px; /* Add spacing between text and image */
+    margin: 70px;
+}
+
+.image {
+    width: 667px;
+height: 576px;
+top: 180px;
+left: 831px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.ife{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    box-shadow: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    border: 0px;
+    padding-left: 20px;
+}
+.ife-1{
+    background-color: white;
+    color: orangered;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    box-shadow: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    border: 0px;
+}
+
+.ife .img {
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+}
+
+.img{
+    height: 20px;
+    width: 20px;
+    justify-content: end;
+    padding: 10px;
+}
+.kole{
+    background: linear-gradient(105.65deg, #FF3C00 21.52%, #BC3207 95.02%);
+    bottom: 0px;
+
+}
+.sole{
+   
+    padding-top: 100px;
+    background-color: white;
+    margin-left: 100px;
+    
+}
+.our-mission{
+    font-size:  15px;
+    color: orange;
+    word-spacing: 10px;
+        position: relative;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 2.3px;
+        line-height: 4;
+        color: var(--primary-main, #FF3C00);
+
+}
+.yup{
+    background-color: white;
+}
+.emp{
+    color: black;
+    font-size: 25px;
+    word-spacing: 15px;
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.brnd{
+    color: orangered;
+    font-size: 25px;
+    word-spacing: 15px;
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fue{
+    color: black;
+    font-size: 25px;
+    word-spacing: 15px;
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.grw{
+    color: orangered;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing: 15px;
+}
+.mission {
+    word-spacing: 5px;
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.778;
+    color: var(--secondary-main, #363636);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ren {
+    vertical-align: middle;
+    margin-left: 800px; /* Adjust the value as needed to add spacing between text and image */
+    align-self: flex-end;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 370.3px;
+        height: 430.1px;
+        margin-top: 800px;
+        margin-right: 0px;
+}
+.rit{
+    background-color: whitesmoke;
+}
+.serve{
+        position: relative;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 2.3px;
+        line-height: 4;
+        color: var(--primary-main, #FF3C00);
+}
+.offer{
+    font-size: 20px;
+        position: absolute;
+        left: 50%;
+        bottom: 0px;
+        top: 1430px;
+        translate: -50% 0;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.375;
+        color: var(--secondary-80, #161616);
+}
+.elevate{
+        text-align: center;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.778;
+        color: var(--secondary-main, #363636);
+}
+.component {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: space-between; /* Add space between items */
+    margin: 100px;
+}
+
+.image-container {
+    text-align: center; /* Center the content */
+}
+
+.image-container img {
+    margin-bottom: 10px; /* Add space between image and description */
+}
+.description{
+    color: orangered;
+    font-size: small;
+}
+.ofe{
+    background-color: white;
+    color: orangered;
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    box-shadow: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.ofe .img {
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+}
+
+.iffer{
+            top: 2300px;
+            position: absolute;
+            left: 50%;
+            bottom: 0px;
+            translate: -50% 0;
+            overflow-wrap: break-word;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 1.375;
+            color: var(--secondary-80, #161616);
+}
+.success{
+        text-align: center;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.778;
+        color: var(--secondary-main, #363636);
+      }
+.brands{
+        margin: 0 4.6px 46.4px 4.6px;
+        display: inline-block;
+        align-self: flex-start;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 20px;
+        letter-spacing: 1.4px;
+        line-height: 2;
+        color: var(--primary-main, #FF3C00);
+}
+.component 2{
+        display: flex;
+        justify-content: space-between; 
+        margin: 100px;
+}
+
+.logo-container{
+    text-align: center;
+    width: Fixed (787.78px)px;
+height: Fixed (183.28px)px;
+top: 23px;
+gap: 6.43px;
+opacity: 0px;
+}
+.home-1 .meenees-logo-main-1 {
+    background: url('../assets/images/meeneesLogoMain1.png') 50% / cover no-repeat;
+    width: 112.5px;
+    height: 23.6px;
+  }
+
+.projects{
+        position: relative;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 2.3px;
+        line-height: 4;
+        color: var(--primary-main, #FF3C00);
+  }
+.case-studies{
+        left: 50%;
+        bottom: 0px;
+        translate: -50% 0;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 1.375;
+        color: var(--secondary-80, #161616);
+}
+
+.tif{
+    margin-left: 70px;
+}
+
+.relentless{
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.778;
+    color: var(--secondary-main, #363636);
+    width: 450px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px; /* Adjust spacing between items */
+}
+
+.text {
+    grid-column: 1; /* Place text in the first column */
+}
+
+.images {
+    grid-column: 2; /* Place images in the second column */
+    align-self: start; /* Align images to the start of their cell */
+}
+
+.images img {
+    width: 100%; /* Ensure images take up full width of their container */
+    display: block;
+    margin-bottom: 20px; /* Adjust spacing between images */
+}
+
+.component-12,
+.component-16 {
+    margin-top: 20px; /* Adjust margin to position images in the second column slightly below the first column */
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Adjust spacing between items */
+}
+
+.text {
+  
+    margin: 90px;
+}
+
+.component-12{
+    margin-top: 20px;
+}
+.itu{
+    background-color: #161616;
+
+}
+
+.your-success-is-our-success-we-believe-in-collaborative-partnerships-working-closely-with-our-clients-to-understand-their-vision-and-goals-embark-on-ajourney-with-the-brand-plug-where-every-project-is-atestament-to-our-commitment-to-excellence-whether-youre-astartup-looking-to-make-amark-or-an-established-business-seeking-afresh-perspective-were-here-to-amplify-your-brands-presence-and-foster-sustainable-growth {
+    overflow-wrap: break-word;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.778;
+    color: #FFFFFF;
+  }
+  .imp{
+    color: white;
+    font-size: 25px;
+    word-spacing: 15px;
+    letter-spacing: 1px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.iii{
+margin: 50px;
+padding: 70px;
+background-image: url(/images/Frame\ 39.png);
+}
+.eee{
+    background-color: whitesmoke;
+    color: orangered;
+    border-radius: 30px;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    border: 0px;
+    padding-left: 10px;
+}
+.eee .img {
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+}
+
+.frame-39{
+    height: 100px;
+}
+.testimonials{
+    color: #ff3c00;
+}
+.client{
+    color: white;
+    font-size: 20px;
+}
+.container {
+    position: relative;
+}
+
+.rrr {
+    text-align: center;
+    color: white;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    top: 5500px;
+    transform: translateY(-50%);
+}
+
+.arrow-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    top: 5500px;
+    transform: translateY(-50%);
+}
+.qqq {
+    background-image: url("/images/Component 7 1.png");
+    background-size: cover; /* Ensure the background image covers the entire background */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    padding: 170px; /* Add padding to the container */
+   border-top-left-radius: -10px;
+   border-top-right-radius: 0px;
+}
+
+.ooo{
+    color: white;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 250px;
+}
+.ooo-1{
+    font-family: Montserrat;
+font-size: 30px;
+font-weight: 800;
+line-height: 50px;
+text-align: center;
+color: white;
+margin-left: 350px;
+}
+.nnn{
+    color: orangered;
+   
+}
+.sss{
+    color: white;
+    margin-left: 400px;
+}
+.contact-us{
+    background-color: white;
+    color: orangered;
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    box-shadow: 0px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin-left: 450px;
+    border: 0px;
+}
+
+.contact-us .img {
+    margin-left: 5px; /* Adjust spacing between text and arrow */
+}
+.always-eager{
+    font-size: 30px;
+    color: black;
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+
+}
+.aef{
+    background-color: whitesmoke;
+    padding: 140px;
+
+}
+.eol{
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+
+}
+.Frame 5{
+        margin: 0 10px; /* Add some spacing between the image containers */
+        text-align: center; /* Center align the content inside each container */
+}
+.center {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Horizontally center the flex items */
+    gap: 10px;
+}
+.continue-reading{
+    color: orange;
+    text-decoration: none;
+}
+.img-cr{
+    height: 30px;
+}
+.jjj{
+font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 50px;
+text-align: center;
+margin-left: 300px;
+
+}
+.jjjj{
+    margin-left: 600px;
+}
+.jjj-1{
+    padding: 70px;
+}
+.www{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+
+}
+.join-us{
+    background-color: whitesmoke;
+}
+.lll{
+    color: orange;
+}
+.ccc{
+    background-color: orangered;
+    color: white;
+    border-radius: 30px;
+    height: 50px;
+    width: 190px;
+    box-shadow: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: 0px;
+    margin-left: 600px;
+}
+.featured-clients{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.1em;
+color: orange;
+margin-left: 200px;
+}
+.bp-footer{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+padding-left: 70px;
+}
+.footer-services{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.vvv{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.others{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.pro{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    background-image: url(/images/Frame\ 39.png);
+}
+.copyright{
+    font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.text-left{
+    text-align: center;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    background: orangered;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown-menu.open {
+ height: 340px;
+ width: 350px;
+}
+.dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu .navbar-right-1 {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle_btn {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+    z-index: 100; /* Higher z-index to ensure it's on top */
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(14, 10, 10);
+    top: 50px; /* Adjust based on actual nav height */
+    right: 0;
+    width: 100%; /* Full width */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 1.0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    z-index: 99; /* Ensure dropdown is below the toggle but above other content */
+}
+.services{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.15em;
+text-align: center;
+color: orangered;
+}
+.fci{
+    margin-left: 300px;
+}
+.testimonial-text{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+color: white;
+width: 700px;
+margin-left: 300px;
+}
+.testimonials{
+    margin-left: 600px;
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.15em;
+text-align: center;
+color: orangered;
+}
+.client{
+    margin-left: 500px;
+    font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 55px;
+text-align: center;
+color: white;
+}
+.testimonial-logos{
+    margin-left: 600px;
+}
+.rec-1{
+    margin-left: 580px;
+}
+.images {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: space-between; /* Distributes space between and around content items along the main-axis */
+    max-width: 600px; /* Sets a max-width for the image container */
+    margin: 0 auto; /* Center align the container */
+}
+
+.images img {
+    width: 48%; /* Each image takes up nearly half of the container's width */
+    margin-bottom: 20px; /* Space below each image */
+}
+
+/* Additional style to ensure that images on the same row are spaced nicely */
+.images img:nth-child(odd) {
+    margin-right: 4%; /* Right margin for the first image in each row */
+}
+
+.images img:nth-child(even) {
+    margin-right: 0; /* No right margin for the second image in each row to align it to the container edge */
+}
+@media screen and (max-width: 600px)
+{
+
+    .dropdown-menu{
+        display: block;
+        left: 2rem;
+    width: unset;
+    color: black;
+    }
+    .navbar-middle,
+    .navbar-right{
+        display: none;
+    }
+    .toggle_btn{
+        display: block;
+        color: black;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+    .navbar-middle-1{
+        text-decoration: none;
+        color: wheat;
+    }
+    .navbar-right-1 img{
+        height: 25px; /* Adjust height as needed */
+margin-left: 15px; /* Add spacing between social media icons */
+margin-right: 15px; /* Add spacing between social media icons */
+border-radius: 50%; /* Make the images round */
+    }
+    .ute{
+        width: 40px;
+        padding-left: 150px;
+    }
+    .ote{
+        width: 350px;
+        font-size: 30px;
+        margin-left: -40px;
+    }
+    .agen-1{
+        font-size: 14px;
+        width: 450px;
+        margin-left: -43px;
+    }
+    .ife-1{
+        margin-left: -43px;
+
+    }
+
+      
+      .home-mobile .we-help-brands-and-businesses-find-their-voice-and-compete-in-their-various-niche {
+        text-align: center;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 1.458;
+        color: #FFFFFF;
+      }
+      .sole {
+      padding-left: 40px;
+       display: block;
+       margin: -1px;
+    }
+    
+    
+
+      .our-mission {
+        position: relative;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 1.8px;
+        line-height: 5;
+        color: var(--primary-main, #FF3C00);
+      }
+      .emp{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.333;
+        color: black;
+      }
+      .brnd{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.333;
+        color: var(--primary-main, #FF3C00);
+      }
+      .fue{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.333;
+        color: black;
+      }
+
+      .grw{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.333;
+        color: var(--primary-main, #FF3C00);
+      }
+      .mission{
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.667;
+        color: var(--secondary-main, #363636);
+      }
+      .serve {
+        position: relative;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        letter-spacing: 1.8px;
+        line-height: 5;
+        color: var(--primary-main, #FF3C00);
+      }
+      .offer {
+        position: absolute;
+        translate: -50% 0;
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.4;
+        top: 1430px;
+        color: var(--secondary-80, #161616);
+      }
+      .elevate {
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.667;
+        color: var(--secondary-main, #363636);
+      }
+     
+     
+    
+      
+      
+      .component {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 30px;
+      }
+      .center {
+        text-align: left; /* Aligns content to the left */
+        width: 100%;
+    }
+    
+    .component {
+        display: flex; /* Makes the component container flex */
+        flex-direction: column; /* Aligns children vertically */
+        align-items: flex-start; /* Aligns items to the left */
+        margin-left: 20px; /* Adds space from the left edge of the viewport */
+        padding: 20px 0; /* Padding top and bottom for spacing */
+    }
+    
+    .image-container{
+        margin-bottom: 20px; /* Adds space between each container */
+        padding-left: 25px;
+    }
+    
+    .description {
+        text-align: left; /* Aligns text to the left within the image containers */
+        color: #333; /* Dark grey text color for better visibility */
+        font-size: 16px; /* Larger font size for readability */
+        padding: 10px 0; /* Padding for spacing around the text */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: center;
+        color: orangered;
+    }
+    
+    .ife {
+            border-radius: 47.1px;
+            background: var(--primary-main, #FF3C00);
+            display: flex;
+            flex-direction: row;
+            align-self: flex-start;
+            padding: 14.1px 0 12px 0;
+            width: 170px;
+            box-sizing: border-box;
+            padding-left: 30px;
+            align-content: left;
+    }
+    .services{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.15em;
+color: orangered;
+text-align: center;
+    }
+    
+    .ife .img {
+        width: 15px; /* Size of the arrow icon */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 5px; /* Space between text and icon */
+        top: 1000px;
+    }
+    .text-left {
+        text-align: left;
+        padding-left: 20px; /* Adds padding to keep the text from the very edge of the browser */
+        max-width: 800px; /* Optional: Constrains the width of the text block for readability */
+        margin-left: auto;
+        margin-right: auto; /* Centers the container within a specified width */
+    }
+    
+    .serve, .iffer, .success {
+        display: block; /* Ensures each element behaves like a paragraph */
+        margin-bottom: 10px; /* Adds space below each heading and paragraph */
+        color: #333; /* Sets a dark color for text for readability */
+        font-size: 18px; /* Adjust the font size as needed */
+    }
+    
+    .serve {
+        font-weight: bold; /* Makes "PARTNERSHIPS" bold */
+        font-size: 24px; /* Larger font size for heading */
+            overflow-wrap: break-word;
+            font-family: 'Montserrat';
+            font-weight: 500;
+            font-size: 12px;
+            letter-spacing: 1.8px;
+            line-height: 5;
+            color: var(--primary-main, #FF3C00);
+            text-align: left;
+    }
+    
+    .iffer {
+        display: block;
+        margin-left: 0;
+        padding-left: 20px; /* Adds a little space from the very edge for readability */
+        text-align: left;
+        font-size: 18px; /* Example font size, adjust as needed */
+        color: #333; /* Dark color for better readability */
+        font-weight: bold; /* Emphasize the heading */
+      top: 2850px;
+      margin-left: -130px;
+    }
+   
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Provides a clean, readable font */
+}
+
+
+    
+    .success {
+        font-weight: normal; /* Regular weight for longer text */
+        line-height: 1.5; /* Improves readability of paragraphs */
+        overflow-wrap: break-word;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.667;
+        color: var(--secondary-main, #363636);
+    }
+  
+.featured-clients {
+    text-align: left; /* Aligns text to the left */
+    display: block; /* Makes it a block element, filling the width of its container */
+    padding-left: 40px; /* Adds some padding for aesthetic spacing from the edge */
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: orangered;
+    margin-left: -250px;
+}
+
+
+img.align-left {
+    display: block; /* Ensures the image behaves as a block element */
+    margin-left: 0; /* Aligns image to the left */
+    padding-left: 20px; /* Adds some padding for consistency with the text styling */
+    width: 400px;
+}
+
+/* Optional: General reset for all elements to ensure no default margins/paddings affect layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+.projects{
+    font-family: Montserrat;
+font-size: 17px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.15em;
+text-align: left;
+}
+.eee,.contact-us{
+    border: 0px;
+}
+.case-studies{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+}
+.relentless{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+}
+.images {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows items to wrap onto the next line */
+    justify-content: space-between; /* Distributes space between and around content items along the main-axis */
+    max-width: 600px; /* Sets a max-width for the image container */
+    margin: 0 auto; /* Center align the container */
+}
+
+.images img {
+    width: 48%; /* Each image takes up nearly half of the container's width */
+    margin-bottom: 20px; /* Space below each image */
+}
+
+/* Additional style to ensure that images on the same row are spaced nicely */
+.images img:nth-child(odd) {
+    margin-right: 4%; /* Right margin for the first image in each row */
+}
+
+.images img:nth-child(even) {
+    margin-right: 0; /* No right margin for the second image in each row to align it to the container edge */
+}
+.component-8{
+    height: 200px;
+}
+.component-12{
+    height: 200px;
+}
+.component-14{
+    height: 200px;
+}
+.container{
+    width: 1000px;
+}
+.imp{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+
+}
+.jtb{
+    width: 350px;
+}
+.your-success-is-our-success-we-believe-in-collaborative-partnerships-working-closely-with-our-clients-to-understand-their-vision-and-goals-embark-on-ajourney-with-the-brand-plug-where-every-project-is-atestament-to-our-commitment-to-excellence-whether-youre-astartup-looking-to-make-amark-or-an-established-business-seeking-afresh-perspective-were-here-to-amplify-your-brands-presence-and-foster-sustainable-growth{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+width: 700px;
+height: 235px;
+gap: 0px;
+opacity: 0px;
+}
+.iii{
+    margin-left: -50px;
+    padding-top: 130px;
+}
+.testimonial-section {
+    text-align: left; /* Aligns all text to the left */
+    padding: 20px; /* Adds some padding around the content */
+}
+
+.testimonial-header b {
+    display: block; /* Makes each header element display on a new line */
+}
+
+.testimonial-text {
+    margin-top: 20px; /* Adds space above the testimonial text */
+    color: white;
+}
+
+.testimonial-logos, .navigation-arrows, .image-row {
+    display: flex;
+    justify-content: center; /* Centers the content within these divs */
+    margin-top: 20px; /* Adds space above each section */
+}
+.testimonial-logos{
+  margin-left: -50px;
+}
+.rec-1{
+    margin-left: -100px;
+}
+
+.navigation-arrows img {
+    margin: 0 10px; /* Adds space between the navigation arrows */
+}
+.testimonial-section {
+    text-align: left;
+    padding: 20px;
+}
+
+.testimonial-header b {
+    display: block;
+}
+
+.testimonial-text {
+    margin-top: 20px;
+}
+
+.testimonial-logos, .image-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-row {
+    align-items: center; /* Align items vertically in the center */
+}
+
+.arrow-left, .arrow-right {
+    position: absolute; /* Allows positioning relative to nearest positioned ancestor */
+}
+
+.arrow-left {
+    left: 0; /* Positions the left arrow to the far left of the container */
+    top: 6050px;
+    width: 40px;
+height: 40px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.arrow-right {
+    right: 0; /* Positions the right arrow to the far right of the container */
+    top: 6050px;
+    padding-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.image-row img:not(.arrow-left):not(.arrow-right) {
+    margin: 0 3px; /* Adds space between the images */
+}
+.qqq{
+    background-image: url(/images/Component\ 7\ 1.png);
+    height: 1px;
+        text-align: left;   /* Aligns text to the left */
+        display: flex;      /* Uses flexbox layout */
+        flex-direction: column; 
+        align-items: flex-start;
+        justify-content: flex-start;  
+}
+.ooo{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+margin-top: -90px;
+width: 450px;
+margin-left: -170px;
+}
+.ooo-1{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 800;
+line-height: 30px;
+margin-top: -20px;
+width: 300px; 
+margin-left: -160px;
+color: white;
+}
+.sss{
+    margin-top: -50px;
+    width: 300px;
+    margin-left: -150px;
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+text-align: left;
+}
+.contact-us{
+    margin-left: -150px;
+    border: 0px;
+}
+.nnn{
+    width: 300px;
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 25px;
+margin-top: -25px;
+margin-left: -50px;
+}
+.always-eager{
+    text-align: left;
+    margin: px;
+}
+.break-sentence {
+    white-space: pre-wrap; /* Ensures whitespace is considered */
+}
+
+.break::after {
+    content: ""; /* Adds a line break */
+    white-space: pre; /* Maintains whitespace */
+}
+.center {
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Centers children horizontally in the container */
+    width: 10%; 
+}
+
+.Frame-5 img{
+    width: 350px;
+    height: 189px;
+}
+.Frame-5{
+    margin-left: 150px;
+}
+
+.description-fra, .continue-reading {
+    text-align: center; /* Centers the text and link */
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+
+}
+.jjj-1{
+width: 10px;
+font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+}
+.join-us{
+    padding: 20px;
+}
+.www{
+    width: 400px;
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+padding-left: 5px;
+}
+.lll{
+   font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left; 
+padding-left: 5px;
+}
+.jjj{
+margin-left: -1px;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+margin-left: -70px;
+}
+.ccc{
+    width: 200px;
+}
+.eol{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+}
+
+.aef-1{
+    margin-left: -90px;
+    width: 300px;
+}
+.always-eager{
+    font-family: Montserrat;
+font-size: 25px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+margin-left: -100px;
+}
+
+.wtt{
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+}
+.ife{
+    justify-content: left;
+    margin-left: -90px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+}
+.bp-footer{
+    margin-left: -95px;
+    width: 400px;
+}  
+.ife{
+    margin-left: 10px;
+}  
+.fci img{
+    margin-left: -270px;
+}
+.testimonial-header{
+    margin-left: -500px;
+}
+.testimonial-text{
+    margin-left: -10px;
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+text-align: left;
+width: 400px;
+color: white;
+padding-left: 40px;
+}
+.client{
+    font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+padding-left: 30px;
+}
+.testimonials{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.15em;
+text-align: left;
+
+}
+.eee{
+    border: 0px;
+}
+.frame-14-cr img{
+    width: 150px;
+    height: 20px;
+}
+     
+}

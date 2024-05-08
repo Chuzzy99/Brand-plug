@@ -1,0 +1,457 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggle_btn{
+    color: black;
+}
+
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.agen-1{
+    color: white;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+line-height: 31px;
+text-align: left;
+}
+
+.navbar-middle ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-middle ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-middle ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-middle ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-middle ul li a:hover {
+    color: orangered;
+}
+
+.logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+.navbar-right {
+    margin-right: 10px; /* Adjust spacing from the right end */
+}
+
+.navbar-right img {
+    height: 25px; /* Adjust height as needed */
+    margin-left: 15px; /* Add spacing between social media icons */
+    margin-right: 15px; /* Add spacing between social media icons */
+    border-radius: 50%; /* Make the images round */
+}
+.navbar-right-1 img {
+    height: 25px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the images round */
+    margin-left: 10px; /* Add spacing between social media icons */
+    margin-right: 10px; /* Add spacing between social media icons */
+}
+.navbar-middle-1{
+    text-decoration: none;
+    color: black;
+}
+
+.ote{
+    color: orangered;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 35px;
+letter-spacing: 0.15em;
+text-align: left 
+}
+.ite {
+    display: flex;
+    align-items: flex-end; /* Align items vertically */
+    padding: 0px;
+}
+
+.text-container {
+    flex: 1; /* Grow to take remaining space */
+    padding-right: 20px; /* Add spacing between text and image */
+    margin: 70px;
+}
+
+
+.img{
+    height: 20px;
+    width: 20px;
+    justify-content: end;
+    padding: 10px;
+}
+.kole{
+    bottom: 0px;
+    background-image: url(/images/Frame\ 139.png);
+}
+.agen-1{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: black;    
+}
+.frame-139{
+    height: 700px;
+    width: 1375px;
+}
+.our-work{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.15em;
+text-align: left;
+color: orangered;
+}
+.yyy{
+    background-color: black;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.case-studies{
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+text-align: left;
+color: white;
+}
+.utc{
+    color: white;
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+}
+.component {
+    display: flex; /* Use flexbox to arrange items horizontally */
+   gap: 20px;
+    margin: 10px;
+}
+
+.image-container {
+    text-align: center; /* Center the content */
+}
+
+.image-container img {
+    margin-bottom: 10px; /* Add space between image and description */
+    width: 397px;
+height: 296px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;  
+}
+.description{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;   
+    color: wheat; 
+}
+.cr-1{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+text-decoration: none;
+}
+.gallery{
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 55px;
+text-align: center;
+color: black;
+}
+.eov{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+color: #363636;
+}
+.frame-152{
+    height: 1370px;
+    width: 1375px;
+}
+
+
+.continue-reading {
+    text-decoration: none; /* Remove underline from the anchor tag */
+    color: orangered; /* Change text color if needed */
+}
+
+
+
+.arrow-icon {
+    width: 20px; /* Adjust the width of the arrow icon */
+    vertical-align: middle; /* Align the icon with the text */
+    margin-left: 5px; /* Space between text and icon */
+}
+button[type="load"] {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+}
+
+.jjj{
+    font-family: Montserrat;
+font-size: 35px;
+font-weight: 700;
+line-height: 50px;
+margin-left: 400px;
+}
+.www{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+}
+.lll{
+    font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+color: #FF3C00;
+}
+.ccc{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 19.5px;
+text-align: left;
+color: white;
+background-color: orangered;
+border-radius: 30px;
+height: 50px;
+width: 190px;
+box-shadow: 0px;
+padding: 10px;
+display: flex;
+align-items: center;
+border: 0px;
+margin-left: 600px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    background-image: url(/images/Frame\ 39.png);
+    padding: 60px;
+}
+.bp-footer{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+padding-left: 70px;
+}
+.footer-services{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.vvv{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.others{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.pro{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.ghg{
+    background-color: #161616;
+}
+.copyright{
+    font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+color: white;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    background: orangered;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 1.0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown-menu.open {
+ height: 340px;
+ width: 350px;
+}
+.dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown-menu .navbar-right-1 {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toggle_btn {
+    display: none; 
+    color: black;
+}
+
+@media screen and (max-width: 600px)
+{
+    .toggle_btn {
+        display: block;
+        z-index: 1050; /* High enough to be on top */
+        position: relative; /* Or absolute, depending on your layout */
+        cursor: pointer;
+        color: black;
+    }
+
+    .navbar-middle, .navbar-right {
+        display: none;  /* Hide the regular menu items on mobile */
+    }
+    .navbar-middle-1{
+        text-decoration: none;
+        color: wheat;
+    }
+
+    .dropdown-menu {
+        display: none;  /* Start hidden */
+        position: absolute;
+        background-color: rgb(14, 10, 10);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        right: 10px;  /* Align to the right */
+        top: 50px;  /* Below the navbar */
+        width: 90%;  /* Responsive width */
+        border-radius: 5px;
+        z-index: 1040;  /* Ensure it's on top but below the toggle button */
+    }
+
+    .dropdown-menu.open {
+        display: block;  /* Show menu when 'open' class is added */
+    }
+
+ .cr-1{
+     margin-right: 150px;
+ }
+ .component{
+     display: flex;
+     flex-direction: column;
+     margin-left: -50px;
+ }
+ .yyy-1{
+    margin-left: -50px;
+ }
+ .jjj-1{
+    width: 700px;
+
+ }
+ .ccc{
+     margin-left: 20px;
+ }
+ .footer{
+     display: flex;
+     flex-direction: column;
+ }
+ .bp-footer{
+     margin-left: -95px;
+     width: 400px;
+ }
+ .www{
+     width: 400px;
+     font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+padding-left: 5px;
+ }
+ .lll{
+    font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+text-align: left; 
+padding-left: 5px;
+ }
+ .jjj{
+ margin-left: -1px;
+ font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+padding-left: 5px;
+ }
+.frame-139{
+    width: 800px;
+    margin-left: -170px;
+}
+}
