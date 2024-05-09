@@ -1119,6 +1119,7 @@ font-weight: 500;
 line-height: 60px;
 letter-spacing: 0.15em;
 text-align: left;
+margin-left: -20px;
 }
 .eee,.contact-us{
     border: 0px;
@@ -1129,6 +1130,7 @@ font-size: 20px;
 font-weight: 700;
 line-height: 28px;
 text-align: left;
+margin-left: -20px;
 }
 .relentless{
     font-family: Montserrat;
@@ -1136,6 +1138,8 @@ font-size: 15px;
 font-weight: 400;
 line-height: 25px;
 text-align: left;
+margin-left: -20px;
+width: 350px;
 }
 .images {
     display: flex; /* Enables flexbox layout */
@@ -1143,11 +1147,15 @@ text-align: left;
     justify-content: space-between; /* Distributes space between and around content items along the main-axis */
     max-width: 600px; /* Sets a max-width for the image container */
     margin: 0 auto; /* Center align the container */
+    margin-left: -10px;
+    width: 310px;
 }
 
 .images img {
     width: 48%; /* Each image takes up nearly half of the container's width */
     margin-bottom: 20px; /* Space below each image */
+    height: 100px;
+    
 }
 
 /* Additional style to ensure that images on the same row are spaced nicely */
