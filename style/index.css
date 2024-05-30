@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+.sole{
+    background-color: pink;
+}
 
 .navbar {
     background-color:transparent;
@@ -12,10 +15,14 @@ body {
     align-items: center;
 }
 
+
 .navbar-left,
 .navbar-right {
     display: flex;
     align-items: center;
+}
+.frme-14{
+    padding-left: 10px;
 }
 .agen-1{
     color: white;
@@ -28,13 +35,14 @@ text-align: left;
 
 .navbar-middle ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    padding-right: 400px;
 }
 
 .navbar-middle ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
+    
 }
 
 .navbar-middle ul li:last-child {
@@ -51,7 +59,8 @@ text-align: left;
 }
 
 .logo img {
-    height: 50px; /* Adjust height as needed */
+    height: 70px; /* Adjust height as needed */
+    padding-left: 20px;
 }
 
 .navbar-right {
@@ -94,20 +103,20 @@ text-align: left;
     margin: 70px;
 }
 
-.image {
+.image-wepik {
     width: 667px;
 height: 576px;
-top: 180px;
+top: 250px;
 left: 831px;
 gap: 0px;
 opacity: 0px;
-
 }
 
 .ife{
     background-color: orangered;
     color: white;
     border-radius: 30px;
+    font-size: 15px;
     height: 50px;
     width: 150px;
     box-shadow: 0px;
@@ -115,7 +124,10 @@ opacity: 0px;
     display: flex;
     align-items: center; /* Align items vertically */
     border: 0px;
-    padding-left: 20px;
+    padding-left: 30px;
+    margin-left: 110px;
+    margin-top: -90px;
+    gap: 5px;
 }
 .ife-1{
     background-color: white;
@@ -124,10 +136,12 @@ opacity: 0px;
     height: 50px;
     width: 150px;
     box-shadow: 0px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center; /* Align items vertically */
     border: 0px;
+    font-size: 15px;
+    gap: 5px;
 }
 
 .ife .img {
@@ -146,11 +160,12 @@ opacity: 0px;
 
 }
 .sole{
-   
     padding-top: 100px;
-    background-color: white;
-    margin-left: 100px;
-    
+    background: #FFF9F8;
+    margin-left: 150px; 
+}
+.sole-1{
+    background: #FFF9F8;
 }
 .our-mission{
     font-size:  15px;
@@ -218,7 +233,7 @@ opacity: 0px;
         top: 0px;
         width: 370.3px;
         height: 430.1px;
-        margin-top: 800px;
+        margin-top: 700px;
         margin-right: 0px;
 }
 .rit{
@@ -239,14 +254,14 @@ opacity: 0px;
         position: absolute;
         left: 50%;
         bottom: 0px;
-        top: 1430px;
+        top: 1250px;
         translate: -50% 0;
         overflow-wrap: break-word;
         font-family: 'Montserrat';
         font-weight: 700;
         font-size: 40px;
         line-height: 1.375;
-        color: var(--secondary-80, #161616);
+        color: var(--secondary-main, #363636);
 }
 .elevate{
         text-align: center;
@@ -261,14 +276,73 @@ opacity: 0px;
     display: flex; /* Use flexbox to arrange items horizontally */
     justify-content: space-between; /* Add space between items */
     margin: 100px;
+    gap: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.image-container {
-    text-align: center; /* Center the content */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding-top: 120px;
+    margin-left: 150px;
 }
 
-.image-container img {
-    margin-bottom: 10px; /* Add space between image and description */
+.grid-item {
+    position: relative;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+.grid-item:hover .overlay {
+    opacity: 1;
+}
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+
+
+.text {
+    margin: 100px;
+}
+
+.wttbp{
+    border-radius: 20px;
+    width: 400px;
+    height: 30px;
+  border: 0px;
+  color: orangered;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 .description{
     color: orangered;
@@ -291,7 +365,7 @@ opacity: 0px;
 }
 
 .iffer{
-            top: 2300px;
+            top: 2070px;
             position: absolute;
             left: 50%;
             bottom: 0px;
@@ -389,37 +463,7 @@ opacity: 0px;
     grid-column: 1; /* Place text in the first column */
 }
 
-.images {
-    grid-column: 2; /* Place images in the second column */
-    align-self: start; /* Align images to the start of their cell */
-}
 
-.images img {
-    width: 100%; /* Ensure images take up full width of their container */
-    display: block;
-    margin-bottom: 20px; /* Adjust spacing between images */
-}
-
-.component-12,
-.component-16 {
-    margin-top: 20px; /* Adjust margin to position images in the second column slightly below the first column */
-}
-
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 20px; /* Adjust spacing between items */
-}
-
-.text {
-  
-    margin: 90px;
-}
-
-.component-12{
-    margin-top: 20px;
-}
 .itu{
     background-color: #161616;
 
@@ -478,12 +522,16 @@ background-image: url(/images/Frame\ 39.png);
     text-align: center;
     color: white;
 }
+.bulb{
+    margin-left: 900px;
+    margin-top: -450px;
+}
 
 .arrow-left {
     position: absolute;
     left: 0;
     top: 50%;
-    top: 5500px;
+    top: 4300px;
     transform: translateY(-50%);
 }
 
@@ -491,7 +539,7 @@ background-image: url(/images/Frame\ 39.png);
     position: absolute;
     right: 0;
     top: 50%;
-    top: 5500px;
+    top: 4300px;
     transform: translateY(-50%);
 }
 .qqq {
@@ -1058,11 +1106,11 @@ text-align: center;
         margin-left: 0;
         padding-left: 20px; /* Adds a little space from the very edge for readability */
         text-align: left;
-        font-size: 18px; /* Example font size, adjust as needed */
+        font-size: 25px; /* Example font size, adjust as needed */
         color: #333; /* Dark color for better readability */
         font-weight: bold; /* Emphasize the heading */
-      top: 2850px;
-      margin-left: -130px;
+      top: 2670px;
+      margin-left: -100px;
     }
    
 body {
@@ -1262,7 +1310,7 @@ opacity: 0px;
 
 .arrow-left {
     left: 0; /* Positions the left arrow to the far left of the container */
-    top: 6050px;
+    top: 5150px;
     width: 40px;
 height: 40px;
 gap: 0px;
@@ -1272,7 +1320,7 @@ opacity: 0px;
 
 .arrow-right {
     right: 0; /* Positions the right arrow to the far right of the container */
-    top: 6050px;
+    top: 5150px;
     padding-right: 10px;
     width: 40px;
     height: 40px;
@@ -1450,7 +1498,7 @@ text-align: left;
     width: 400px;
 }  
 .ife{
-    margin-left: 10px;
+    margin-left: 100px;
 }  
 .fci img{
     margin-left: -270px;
@@ -1492,6 +1540,10 @@ text-align: left;
 .frame-14-cr img{
     width: 150px;
     height: 20px;
-}
-     
+} 
+.wttbp{
+    margin-left: -50px;
+}.text{
+  
+}   
 }
